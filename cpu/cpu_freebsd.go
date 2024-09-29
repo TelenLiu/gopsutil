@@ -14,7 +14,7 @@ import (
 	"github.com/tklauser/go-sysconf"
 	"golang.org/x/sys/unix"
 
-	"github.com/shirou/gopsutil/v4/internal/common"
+	"github.com/TelenLiu/gopsutil/v4/internal/common"
 )
 
 var (

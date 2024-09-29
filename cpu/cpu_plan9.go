@@ -8,8 +8,8 @@ import (
 	"os"
 	"runtime"
 
+	"github.com/TelenLiu/gopsutil/v4/internal/common"
 	stats "github.com/lufia/plan9stats"
-	"github.com/shirou/gopsutil/v4/internal/common"
 )
 
 func Times(percpu bool) ([]TimesStat, error) {

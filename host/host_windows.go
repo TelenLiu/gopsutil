@@ -13,8 +13,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/shirou/gopsutil/v4/internal/common"
-	"github.com/shirou/gopsutil/v4/process"
+	"github.com/TelenLiu/gopsutil/v4/internal/common"
+	"github.com/TelenLiu/gopsutil/v4/process"
 	"golang.org/x/sys/windows"
 )
 

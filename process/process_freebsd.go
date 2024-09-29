@@ -14,9 +14,9 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	cpu "github.com/shirou/gopsutil/v4/cpu"
-	"github.com/shirou/gopsutil/v4/internal/common"
-	net "github.com/shirou/gopsutil/v4/net"
+	cpu "github.com/TelenLiu/gopsutil/v4/cpu"
+	"github.com/TelenLiu/gopsutil/v4/internal/common"
+	net "github.com/TelenLiu/gopsutil/v4/net"
 )
 
 func pidsWithContext(ctx context.Context) ([]int32, error) {

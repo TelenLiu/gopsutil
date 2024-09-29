@@ -17,9 +17,9 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/shirou/gopsutil/v4/cpu"
-	"github.com/shirou/gopsutil/v4/internal/common"
-	"github.com/shirou/gopsutil/v4/net"
+	"github.com/TelenLiu/gopsutil/v4/cpu"
+	"github.com/TelenLiu/gopsutil/v4/internal/common"
+	"github.com/TelenLiu/gopsutil/v4/net"
 )
 
 // copied from sys/sysctl.h
